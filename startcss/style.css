@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(173, 146, 182);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: bold;
+    text-transform: capitalize;
+    list-style-type: decimal;
+    line-height:normal;
+}
+body {
+  counter-reset: mycounter;
+}
+    
+
+h3 {
+  counter-increment: mycounter;
+}
+
+h3::before {
+  content: counter(mycounter) ". ";
+}
