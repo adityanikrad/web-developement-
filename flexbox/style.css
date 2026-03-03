@@ -1,0 +1,12 @@
+.navbar{
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;    
+}
+li{
+    list-style: none;
+}
