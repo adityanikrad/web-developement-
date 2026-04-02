@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(60, 78, 176);
+    height: 2000px;
+    width: 2000px;
+    animation-name: coloranimate;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes coloranimate{
+    from{background-attachment: rgb(60, 78, 176);}
+    to{background-color: blueviolet;}
+}
