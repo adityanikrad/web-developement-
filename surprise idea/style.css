@@ -1,0 +1,29 @@
+#new {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+div {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding-top: 10px;
+
+    align-items: center;
+
+}
+
+#new:hover div {
+    transform: translateX(300px);
+    transition: 2s;
+}
