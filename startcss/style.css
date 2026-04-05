@@ -1,6 +1,17 @@
 body{
     background-color: rgb(173, 146, 182);
     font-family: 'Times New Roman', Times, serif;
+    
+}
+button{
+    background-color: rgb(210, 192, 203);
+    transition :all 0.5s ease-in;
+
+}
+button:hover{
+    
+    font-size: 20px;
+    transform: scale(m);
 }
 
 h1{
