@@ -1,0 +1,13 @@
+div{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(238, 23, 23);
+    position: absolute;
+    animation: oneline 2s ease-in 1s infinite normal;
+
+}
+@keyframes oneline {
+    from {left:0px; }
+    to{ right:200px; }
+    
+}
