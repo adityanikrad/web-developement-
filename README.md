@@ -1,2 +1,2 @@
-repository contain html,css and javascript codes.
+repository contain html,css and javascript basic codes.
 
